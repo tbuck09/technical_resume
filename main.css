@@ -1,0 +1,87 @@
+:root {
+    --main-color: #4F788D;
+    --dark-blue: #2F4A57;
+    --light-blue: #A5BFC5;
+    --floral-green: #3A5E48;
+    --accent: #E87F4D;
+    --off-white: #fafcff;
+}
+
+body {
+    background-color: var(--off-white);
+}
+
+main {
+    min-height: calc(100vh - 5vh);
+}
+
+header {
+    background-color: var(--off-white);
+    color: var(--dark-blue)
+}
+
+a:link {
+    color: var(--floral-green);
+}
+a:visited {
+    color: var(--floral-green);
+}
+a:focus,
+a:hover,
+a:active {
+    color: var(--accent);
+}
+
+#skill-summary {
+    background-color: var(--main-color);
+    color: white;
+    min-height: 100%;
+}
+
+#description {
+    background-color: var(--off-white);
+    color: var(--dark-blue);
+    min-height: 100%;
+}
+
+img.brand-logo {
+    height: 1rem;
+}
+
+#experience div.experience-header * {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#experience p.location {
+    text-align: right;
+}
+#experience p.time-period {
+    text-align: right;
+}
+
+#references .phone {
+    text-align: right;
+}
+
+.tooltip.show {
+    opacity: 1;
+}
+.tooltip .tooltip-inner {
+    background-color: var(--floral-green);
+    color: var(--off-white);
+    max-width: 30em;
+}
+.tooltip-arrow {
+    visibility: hidden;
+}
+
+footer#footer {
+    position: relative;
+    height: 5vh;
+    margin: 0px;
+    padding: 0px;
+    clear:both;
+    text-align: center;
+    background-color: var(--off-white);
+    color: var(--main-color);
+}
