@@ -70,6 +70,7 @@ const confidenceDict= {
     "alteryx-confidence-svg": 60,
     "aws-confidence-svg": 40,
     "clarityhs-confidence-svg": 85,
+    "cql-confidence-svg": 55,
     "english-confidence-svg": 95,
     "javascript-confidence-svg": 75,
     "looker-confidence-svg": 90,
