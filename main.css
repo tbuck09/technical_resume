@@ -85,19 +85,47 @@ img.brand-logo {
     height: 1rem;
 }
 
+#projects .project:not(:first-of-type) {
+    margin-top: 1.5rem;
+}
+#projects .project:not(:last-of-type) {
+    margin-bottom: 1.5rem;
+}
+
+#projects .project p {
+    margin-bottom: 0;
+}
+
 #experience div.experience-header * {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 #experience p.location {
     text-align: right;
 }
+
 #experience p.time-period {
     text-align: right;
 }
 
+#experience .job-experience:not(:first-of-type) {
+    margin-top: 1.5rem
+}
+#experience .job-experience:not(:last-of-type) {
+    margin-bottom: 1.5rem
+}
+
+#education p:not(:last-of-type) {
+    margin-bottom: .25rem;
+}
+
 #education .location {
     text-align: right;
+}
+
+#references .reference-information:not(:last-of-type) {
+    margin-bottom: .25rem;
 }
 
 #references .phone {
