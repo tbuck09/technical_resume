@@ -134,6 +134,10 @@ img.brand-logo {
     margin-bottom: .25rem;
 }
 
+#references .email {
+    text-align: center;
+}
+
 #references .phone {
     text-align: right;
 }
