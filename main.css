@@ -41,6 +41,12 @@ div.popover-body span {
     font-size: 1.25rem;
 }
 
+#my-phone,
+#my-loc {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 a:link {
     color: var(--floral-green);
 }

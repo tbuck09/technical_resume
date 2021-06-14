@@ -16,11 +16,11 @@ $(document).ready(function(){
                 <a class="col-4" href='https://www.linkedin.com/in/tyler-d-buck/' target='_blank'><i class="fab fa-linkedin"></i></a>
             </div>
             <hr>
-            <div class="row"><i class="fas fa-phone col-4"></i><span class='col-8'>515.298.3195</span></div>
+            <div class="row"><i class="fas fa-phone col-4"></i><span class='col-8' id='my-phone'>515.298.3195</span></div>
             <hr>
-            <div class="row"><i class="fas fa-map-marker-alt col-4"></i><span class='col-8'>Denver, CO</span></div>
+            <div class="row"><i class="fas fa-map-marker-alt col-4"></i><span class='col-8' id='my-loc' >Denver, CO</span></div>
         `,
-        html: true
+        html: true,
     })
 });
 
