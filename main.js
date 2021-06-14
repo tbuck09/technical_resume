@@ -35,8 +35,8 @@ function drawConfidence(confidence, areaId) {
             "right": 4,
         },
         "offset": {
-            "x": 5,
-            "y": 5,
+            "x": 3,
+            "y": 3,
         },
     }
 
@@ -49,21 +49,21 @@ function drawConfidence(confidence, areaId) {
         .attr("x", dimensions.offset.x - 2)
         .attr("y", dimensions.offset.y)
         .attr("width", 100)
-        .attr("height", 20)
+        .attr("height", 15)
         .attr("rx", 10)
         .attr("fill", mainColor)
         .attr("stroke", "white")
-        .attr("stroke-width", "5")
+        .attr("stroke-width", "3")
     
     const rectConfidence= svg.append("rect")
         .attr("x", dimensions.offset.x)
         .attr("y", dimensions.offset.y + 2)
         .attr("width", confidence)
-        .attr("height", 16)
+        .attr("height", 11)
         .attr("rx", 10)
         .attr("fill", lightBlue)
         .attr("stroke", "white")
-        .attr("stroke-width", "1")
+        .attr("stroke-width", "2")
 }
 
 const confidenceDict= {

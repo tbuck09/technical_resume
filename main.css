@@ -76,6 +76,11 @@ a:active {
     padding-top: 1rem;
 }
 
+#description section h3,
+#description section h5 {
+    font-weight: bold;
+}
+
 img.brand-logo {
     height: 1rem;
 }
